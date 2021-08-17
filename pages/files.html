@@ -8,7 +8,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-   Dashboard by Altrone
+    Dashboard by Altrone
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -57,7 +57,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active" href="../pages/Plan.html">
+          <a class="nav-link  active" href="../pages/tables.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>office</title>
@@ -73,10 +73,9 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Users</span>
+            <span class="nav-link-text ms-1">Subscription</span>
           </a>
         </li>
-      
         <li class="nav-item">
           <a class="nav-link  " href="../pages/plan.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -117,6 +116,9 @@
             <span class="nav-link-text ms-1">Files</span>
           </a>
         </li>
+        
+        
+       
         <li class="nav-item mt-3">
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account pages</h6>
         </li>
@@ -208,9 +210,9 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Plan</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Tables</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Plan</h6>
+          <h6 class="font-weight-bolder mb-0">Tables</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -320,16 +322,11 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
       <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Edit Plan
-          </button>
-        </div>
+        
         <div class="col-12">
           <div class="card mb-4">
             <div class="card-header pb-0">
-              <h6>Plan table</h6>
+              <h6>Files table</h6>
             </div>
             
             
@@ -339,326 +336,186 @@
                   <thead>
                     <tr>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Parent Plan</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Amount</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Currency</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Last Updated</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Edit</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">File name</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Owner</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Type</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Public</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">File Size</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Uploaded at</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
                     
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+          
                       </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
-                    
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
-                    
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
-                    
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
-                    
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
-                    
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex px-2 py-1">
-                          
-                          <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">
-                              1 year subscription</h6>
-                            
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">300GB</p>
-  
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">$240.00</span>
-                      </td>
-                    
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">USD</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">2021-12-28</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Edit</span>
-                      </td>
-                    </tr>
-                    <tr>
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user5">
+                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Richard Gran</h6>
-                            <p class="text-xs text-secondary mb-0">richard@altrone.com</p>
+                            <h6 class="mb-0 text-sm">John Michael</h6>
+                            <p class="text-xs text-secondary mb-0">john@altrone.com</p>
                           </div>
                         </div>
                       </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
-                        <p class="text-xs text-secondary mb-0">Executive</p>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                      
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">Folder</span>
                       </td>
                       <td class="align-middle text-center">
-                        <span class="text-secondary text-xs font-weight-bold">Not Subscribed</span>
+                        <span class="text-secondary text-xs font-weight-bold">No</span>
                       </td>
-                      <td class="align-middle">
-                        <a href="" class="text-secondary font-weight-bold text-xs"  data-toggle="modal" data-target="#exampleModal">
-                          Edit
-                        </a>
-                       
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Subscription Form</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                <form>
-                                  <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                      <label for="inputEmail4">Name</label>
-                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Search for Users...">
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="inputAddress">Parent Plan</label>
-                                      <select id="inputState" class="form-control">
-                                        <option selected>15 GB</option>
-                                        <option>100 GB</option>
-                                        <option>300 GB</option>
-                                        <option>50 GB</option>
-                                      </select>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="inputAddress">Currency</label>
-                                      <select id="inputState" class="form-control">
-                                        <option selected>USD - US Dollar</option>
-                                        <option>EUR - Euro Dollar GB</option>
-                                        <option>IND - Rupee</option>
-                
-                                      </select>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="inputAddress">Interval</label>
-                                      <select id="inputState" class="form-control">
-                                        <option selected>Day</option>
-                                        <option>Month</option>
-                                        <option>Week</option>
-                
-                                      </select>
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                      <label for="inputPassword4">Interval Count</label>
-                                      <input type="email" class="form-control" id="inputPassword4" placeholder="Enter Count">
-                                    </div>
-                                    <div class="form-check form-switch ps-0">
-                                      <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault" checked>
-                                      <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault">Recommended</label>
-                                    </div>
-                                    <div class="form-check form-switch ps-0">
-                                      <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault" checked>
-                                      <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault">Free</label>
-                                    </div>
-                                    <div class="form-check form-switch ps-0">
-                                      <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault" checked>
-                                      <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault">Show Permissions</label>
-                                    </div>
-                                    
-                                 
-                                  <div class="form-group">
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" id="gridCheck">
-                                      <label class="form-check-label" for="gridCheck">
-                                        Check me out
-                                      </label>
-                                    </div>
-                                  </div>
-                          
-                                </form>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                              </div>
-                            </div>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">27 KB</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">2021-08-13</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+                    
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+          
+                      </td>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div>
+                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">John Michael</h6>
+                            <p class="text-xs text-secondary mb-0">john@altrone.com</p>
                           </div>
                         </div>
                       </td>
+                      
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">Folder</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">No</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">27 KB</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">2021-08-13</span>
+                      </td>
+                      <tr>
+                        <td>
+                          <p class="text-xs font-weight-bold mb-0">Vlss</p>
+                      
+                        </td>
+                        <td>
+                          <p class="text-xs font-weight-bold mb-0">Vlss</p>
+            
+                        </td>
+                        <td>
+                          <div class="d-flex px-2 py-1">
+                            <div>
+                              <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                              <h6 class="mb-0 text-sm">John Michael</h6>
+                              <p class="text-xs text-secondary mb-0">john@altrone.com</p>
+                            </div>
+                          </div>
+                        </td>
+                        
+                        <td class="align-middle text-center">
+                          <span class="text-secondary text-xs font-weight-bold">Folder</span>
+                        </td>
+                        <td class="align-middle text-center">
+                          <span class="text-secondary text-xs font-weight-bold">No</span>
+                        </td>
+                        <td class="align-middle text-center">
+                          <span class="text-secondary text-xs font-weight-bold">27 KB</span>
+                        </td>
+                        <td class="align-middle text-center">
+                          <span class="text-secondary text-xs font-weight-bold">2021-08-13</span>
+                        </td>
+                      </tr>
+                      
+                    
+                    <tr>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+                    
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+          
+                      </td>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div>
+                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">John Michael</h6>
+                            <p class="text-xs text-secondary mb-0">john@altrone.com</p>
+                          </div>
+                        </div>
+                      </td>
+                      
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">Folder</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">No</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">27 KB</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">2021-08-13</span>
+                      </td>
                     </tr>
-                  
+                    <tr>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+                    
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">Vlss</p>
+          
+                      </td>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div>
+                            <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
+                          </div>
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">John Michael</h6>
+                            <p class="text-xs text-secondary mb-0">john@altrone.com</p>
+                          </div>
+                        </div>
+                      </td>
+                      
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">Folder</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">No</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">27 KB</span>
+                      </td>
+                      <td class="align-middle text-center">
+                        <span class="text-secondary text-xs font-weight-bold">2021-08-13</span>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -666,7 +523,7 @@
           </div>
         </div>
       </div>
-      
+   
       <footer class="footer pt-3  ">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
